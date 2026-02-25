@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batelier | Modern Organization</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container top-bar-flex">
+                <div class="contact-links">
+                    <a href="tel:+48727643383"><i data-lucide="phone"></i> +48 727 643 383</a>
+                    <a href="mailto:contact@batelier.net"><i data-lucide="mail"></i> contact@batelier.net</a>
+                </div>
+                <div class="promo-text-center">
+                    Free Shipping on Orders Over €89
+                </div>
+                <div class="social-links-top">
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container header-layout">
+                <div class="header-action-left">
+                    <button class="search-trigger"><i data-lucide="search"></i></button>
+                </div>
+                <div class="branding">
+                    <a href="/" class="logo flex-row-center">
+                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M50 85 C50 85 85 65 85 40 C85 25 70 15 50 15 C30 15 15 25 15 40 C15 65 50 85 50 85 M50 25 C65 25 75 35 75 40 C75 55 50 75 50 75 C50 75 25 55 25 40 C25 35 35 25 50 25"
+                                fill="none" stroke="currentColor" stroke-width="6" />
+                            <path d="M50 40 L50 85" fill="none" stroke="currentColor" stroke-width="6" />
+                        </svg>
+                        <h1 class="logo-name">batelier</h1>
+                    </a>
+                </div>
+                <div class="header-action-right">
+                    <a href="#"><i data-lucide="user"></i></a>
+                    <a href="#" class="stars-icon">
+                        <div class="wish-count-stack">
+                            <i data-lucide="star"></i>
+                            <span class="count-badge">0</span>
+                        </div>
+                    </a>
+                    <a href="#" class="cart-icon"><i data-lucide="shopping-bag"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-links">
+                    <li class="has-dropdown mega-trigger">
+                        <a href="#" class="active">DISCOVER <i data-lucide="chevron-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="container mega-grid">
+                                <div class="mega-column">
+                                    <h3>Connect</h3>
+                                    <ul>
+                                        <li><a href="#">Instagram</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Blog / Stories</h3>
+                                    <ul>
+                                        <li><a href="#">Message from Us</a></li>
+                                        <li><a href="#">Product Case Studies</a></li>
+                                        <li><a href="#">Inspirations</a></li>
+                                        <li><a href="#">Behind the scenes</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-image">
+                                    <img src="a3.png" alt="a3">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">ORGANIZATION <i data-lucide="chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Charging Stations</a></li>
+                            <li><a href="#">Cable Management</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">HOME DECOR <i data-lucide="chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Concrete Pots</a></li>
+                            <li><a href="#">Wall Hooks</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">STANDS <i data-lucide="chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Headphone Stands</a></li>
+                            <li><a href="#">Apple Watch Docks</a></li>
+                            <li><a href="#">iPad Stands</a></li>
+                            <li><a href="#">Laptop Stands</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-split">
+            <div class="split-container">
+                <div class="split-left">
+                    <img src="a1.png" alt="Product Left" class="split-img img-headphones">
+                </div>
+                <div class="split-right">
+                    <img src="a2.png" alt="Product Right" class="split-img img-watch">
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <h1 class="hero-title">Designed<br>To Perfection</h1>
+                <button class="btn-outline-white" onclick="openShopModal()">SHOP NOW</button>
+            </div>
+
+            <!-- Subtitle at bottom like the screenshot -->
+            <div class="hero-bottom-text">
+                <p class="hero-subtitle">We are Batelier and we love to create beautiful things! All products are
+                    designed and manufactured in Poland, Europe.</p>
+            </div>
+
+            <div class="promo-badge">
+                <div class="badge-box">
+                    <span class="badge-text">GET 15% OFF!</span>
+                    <button class="badge-close">×</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="features-grid">
+            <div class="container features-flex">
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="layers"></i></div>
+                    <h3>Modern and minimalist</h3>
+                    <p>A modern and minimalist way to organize your space.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="box"></i></div>
+                    <h3>Organized Space</h3>
+                    <p>Keep your laptop cables, USB cords and gadget chargers all neatly and stylishly organized.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="shield-check"></i></div>
+                    <h3>Safe For Everyone</h3>
+                    <p>The finishing oils we use are resistant to dirt, water, and abrasion and smoothens the surface.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bestsellers">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">THE MOST POPULAR CUSTOMER CHOICES</span>
+                    <h2 class="section-title">Bestsellers</h2>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="a2.png" alt="Wood Headphone Stand">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Wood Headphone Stand</h3>
+                            <div class="product-price">€47,25 <span class="old-price">€63,00</span></div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="l2.png">
+                                alt="Macbook Dock">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Macbook Dock</h3>
+                            <div class="product-price">€69,00</div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="l3.png"
+                                alt="Wall Hooks">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Wall Hooks</h3>
+                            <div class="product-price">€59,00</div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="l4.png"
+                                alt="Wood iPad Stand">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Wood iPad Stand</h3>
+                            <div class="product-price">€48,30 <span class="old-price">€69,00</span></div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="l5.png" alt="Smart Leaptop">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Smart LED TV</h3>
+                            <div class="product-price">€299,00 <span class="old-price">€399,00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="merged-personalization" style="margin-bottom: 80px;">
+            <div class="personalization-container">
+                <div class="personalization-content-box">
+                    <h2 class="personalization-title">Personalize Your Product</h2>
+                    <p class="personalization-text">
+                        Make your product even more special by engraving initials, an inspirational quote or something
+                        meaningful and dear to you. With our high precision laser engraving machine.
+                    </p>
+                    <a href="#" class="btn-primary-green">GET INSPIRED</a>
+                </div>
+                <div class="personalization-image-box">
+                    <img src="b1.png" alt="iPhone Personalization" class="animated-ileaptop">
+                </div>
+            </div>
+        </section>
+
+        <section class="categories-split-immersive">
+            <div class="cat-box">
+                <div class="cat-bg" style="background-image: url('a1.png');"></div>
+                <div class="cat-overlay"></div>
+                <div class="cat-content">
+                    <h2 class="cat-title">Wood & Steel</h2>
+                    <a href="#" class="btn-immersive">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="cat-box">
+                <div class="cat-bg" style="background-image: url('b3.png');"></div>
+                <div class="cat-overlay"></div>
+                <div class="cat-content">
+                    <h2 class="cat-title">Concrete</h2>
+                    <a href="#" class="btn-immersive">LEARN MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="new-arrivals">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">DISCOVER OUR NEW PRODUCTS</span>
+                    <h2 class="section-title">New Arrivals</h2>
+                </div>
+                <div class="arrival-grid">
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <img src="l6.png"
+                                alt="Wall Apple Watch Holder">
+                        </div>
+                        <div class="arrival-info">
+                            <h3 class="arrival-name">Wall Apple Watch Holder</h3>
+                            <div class="arrival-price">€32,20 <span class="old-price">€46,00</span></div>
+                        </div>
+                    </div>
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <img src="l2.png"
+                                alt="Macbook Dock">
+                        </div>
+                        <div class="arrival-info">
+                            <h3 class="arrival-name">Macbook Dock</h3>
+                            <div class="arrival-price">€69,00</div>
+                        </div>
+                    </div>
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <img src="l3.png"
+                                alt="Wall Hooks">
+                        </div>
+                        <div class="arrival-info">
+                            <h3 class="arrival-name">Wall Hooks</h3>
+                            <div class="arrival-price">€59,00</div>
+                        </div>
+                    </div>
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <img src="l4.png"
+                                alt="Wood leaptop">
+                        </div>
+                        <div class="arrival-info">
+                            <h3 class="arrival-name">Wood leaptop</h3>
+                            <div class="arrival-price">€89,00 <span class="old-price">€115,00</span></div>
+                        </div>
+                    </div>
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <img src="l5.png" alt="Premium leaptop">
+                        </div>
+                        <div class="arrival-info">
+                            <h3 class="arrival-name">Premium leaptop</h3>
+                            <div class="arrival-price">€199,00 <span class="old-price">€249,00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brand-press">
+            <div class="container">
+                <h2 class="press-title">Who's talking about Us</h2>
+                <div class="press-logos">
+                    <div class="logo-item">ELLE</div>
+                    <div class="logo-item logo-inc">Inc.</div>
+                    <div class="logo-item">REAL SIMPLE</div>
+                    <div class="logo-item">GadgetFlow</div>
+                    <div class="logo-item">apartment therapy</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer-reviews">
+            <div class="container">
+                <h2 class="reviews-title">Customer reviews</h2>
+                <p class="reviews-subtitle">We care what people say, because every review is an experience that matters.
+                </p>
+            </div>
+        </section>
+
+        <section class="perfection-section">
+            <div class="container perfection-flex">
+                <div class="perfection-image">
+                    <img src="b4.png" alt="Wifi Router">
+                </div>
+                <div class="perfection-content">
+                    <h2 class="perfection-title">Designed to perfection</h2>
+                    <p class="perfection-text">
+                        Driven by inspiration, ingenuity and innovation, everything is made with a distinct design
+                        sensibility. Our products are created with the goal of improving how you use your space, but in
+                        a streamlined way that will not overwhelm it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="perfection-section perfection-full-width" style="padding: 0;">
+            <div class="perfection-image-full">
+                <img src="l7.png" alt="Premium Laptop">
+            </div>
+        </section>
+
+        <section class="organize-section">
+            <div class="container organize-flex">
+                <div class="organize-content">
+                    <span class="organize-label">SMART WAY TO</span>
+                    <h2 class="organize-title">Organize Your Workspace</h2>
+                    <p class="organize-text">
+                        Keep your laptop cables, USB cords and gadget chargers all neatly and stylishly
+                        organized with this sleek, space-optimizing cable holder.
+                    </p>
+                    <a href="#" class="shop-now-link">SHOP NOW</a>
+                </div>
+                <div class="organize-image">
+                    <img src="l8.png" alt="Refrigerator">
+                </div>
+            </div>
+        </section>
+
+        <section class="inspired-section">
+            <div class="container inspired-container">
+                <div class="inspired-header">
+                    <h2 class="inspired-title">Get Inspired</h2>
+                    <p class="inspired-text">
+                        Immerse yourself in our world of unique accessories, where inspiration flows from our
+                        global travels, passion for exquisite design, and deep connection with nature. But what truly
+                        ignites our creative fire is the incredible Batelier community. Discover their remarkable
+                        sense of style, breathtaking adventures, and captivating photography. Join the movement
+                        and share your own moments of beauty by using the hashtag #batelierMADE. Together,
+                        let's celebrate the essence of craftsmanship and individuality.
+                    </p>
+                </div>
+                <div class="inspired-grid">
+                    <div class="inspired-item"><img src="a1.png" alt="Watch"></div>
+                    <div class="inspired-item"><img src="h1.png" alt="Headphones"></div>
+                    <div class="inspired-item"><img src="l5.png" alt="iPhone"></div>
+                    <div class="inspired-item"><img src="h.png" alt="Laptop"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-columns">
+                <div class="footer-col contact-info">
+                    <p>Email: contact@batelier.net</p>
+                    <p>Tel: +48 724 657 924</p>
+                </div>
+                <div class="footer-col footer-nav">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Our Materials</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-nav">
+                    <h3>HELP</h3>
+                    <ul>
+                        <li><a href="#">Customer Care</a></li>
+                        <li><a href="#">Shipping and Delivery</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-nav">
+                    <h3>#BATELIERMADE</h3>
+                    <ul>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Corporate Gifting</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Personalization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col newsletter-col">
+                    <h2 class="newsletter-title">Newsletter</h2>
+                    <p class="newsletter-description">
+                        Sign up to our Newsletter to hear about new product releases. Directly to your inbox.
+                    </p>
+                    <div class="newsletter-form">
+                        <div class="input-group">
+                            <i data-lucide="mail"></i>
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit"><i data-lucide="arrow-right"></i></button>
+                        </div>
+                        <label class="terms-label">
+                            <input type="checkbox">
+                            <span>I agree with the <a href="#">Terms & conditions</a></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; Batelier 2023</p>
+                </div>
+                <div class="payment-methods">
+                    <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+                    <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard">
+                    <img src="https://img.icons8.com/color/48/000000/amex.png" alt="Amex">
+                    <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="Apple Pay">
+                    <img src="https://img.icons8.com/color/48/000000/google-pay.png" alt="Google Pay">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shop Modal -->
+    <div id="shopModal" class="shop-modal-overlay" onclick="closeShopModal(event)">
+        <div class="shop-modal">
+            <button class="modal-close" onclick="closeShopModal()">&times;</button>
+            <h2 class="modal-title">Our Products</h2>
+            <div class="modal-grid">
+                <div class="modal-card">
+                    <div class="modal-img-wrap"><img src="h.png" alt="AC"></div>
+                    <div class="modal-info">
+                        <h3>Air Headphone</h3>
+                        <p class="modal-price">&#8377; 35,999</p>
+                        <button class="modal-add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="modal-card">
+                    <div class="modal-img-wrap"><img src="h1.png" alt="TV"></div>
+                    <div class="modal-info">
+                        <h3>Music Headphone</h3>
+                        <p class="modal-price">&#8377; 49,999</p>
+                        <button class="modal-add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="modal-card">
+                    <div class="modal-img-wrap"><img src="l4.png" alt="iPhone"></div>
+                    <div class="modal-info">
+                        <h3>Wood leaptop</h3>
+                        <p class="modal-price">&#8377; 1,29,900</p>
+                        <button class="modal-add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="modal-card">
+                    <div class="modal-img-wrap"><img src="l7.png" alt="Laptop"></div>
+                    <div class="modal-info">
+                        <h3>Premium Laptop</h3>
+                        <p class="modal-price">&#8377; 89,990</p>
+                        <button class="modal-add-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        function openShopModal() {
+            document.getElementById('shopModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeShopModal(e) {
+            if (!e || e.target === document.getElementById('shopModal')) {
+                document.getElementById('shopModal').classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+    </script>
+</body>
+
+</html>
